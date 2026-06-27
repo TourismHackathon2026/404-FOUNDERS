@@ -1,0 +1,53 @@
+import type { CommunityReport } from "./types";
+
+export const SEED_REPORTS: CommunityReport[] = [
+  {
+    id: "r1",
+    type: "crowd",
+    routeId: "route-15",
+    stopName: "Boudha",
+    message: "Large tour group at stupa — expect 20 min wait for peaceful circumambulation",
+    timestamp: Date.now() - 1000 * 60 * 45,
+    upvotes: 12,
+    author: "local_guide",
+  },
+  {
+    id: "r2",
+    type: "delay",
+    routeId: "route-23",
+    stopName: "Gaushala",
+    message: "Road construction near Pashupati — buses delayed ~15 minutes",
+    timestamp: Date.now() - 1000 * 60 * 120,
+    upvotes: 8,
+    author: "commuter_ktm",
+  },
+  {
+    id: "r3",
+    type: "tip",
+    stopName: "Thamel Chowk",
+    message: "Best buff momo at Himalayan Java alley — ask for jhol momo, 180 NPR",
+    timestamp: Date.now() - 1000 * 60 * 300,
+    upvotes: 24,
+    author: "momo_hunter",
+  },
+  {
+    id: "r4",
+    type: "alert",
+    routeId: "route-27",
+    stopName: "Swayambhu Chowk",
+    message: "Monkeys very active today — secure bags and food",
+    timestamp: Date.now() - 1000 * 60 * 60,
+    upvotes: 6,
+    author: "swayambhu_local",
+  },
+  {
+    id: "r5",
+    type: "tip",
+    routeId: "route-32",
+    stopName: "Bhaktapur Bus Park",
+    message: "Heritage entry less crowded before 10 AM — buy ticket at east gate",
+    timestamp: Date.now() - 1000 * 60 * 480,
+    upvotes: 15,
+    author: "heritage_walker",
+  },
+];
