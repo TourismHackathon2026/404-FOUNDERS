@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -22,80 +22,84 @@ const createColoredMarker = (color) =>
     shadowSize: [41, 41],
   });
 
-const greenMarker = createColoredMarker("green"); // user location
-const blueMarker = createColoredMarker("blue"); // board stop
-const orangeMarker = createColoredMarker("orange"); // alight stop
+const greenMarker = createColoredMarker("green"); // user
 const redMarker = createColoredMarker("red"); // destination
 
-// Auto-fit map to show all route points
 function FitBounds({ points }) {
   const map = useMap();
+
   useEffect(() => {
     if (points && points.length > 0) {
       const bounds = L.latLngBounds(points);
       map.fitBounds(bounds, { padding: [40, 40] });
     }
   }, [points, map]);
+
   return null;
 }
 
-function MapView({ routeData, userLocation }) {
-  if (!routeData || !userLocation) {
-    return (
-      <MapContainer
-        center={[27.7172, 85.324]}
-        zoom={13}
-        style={{ height: "100%", width: "100%", borderRadius: "12px" }}
-      >
-        <TileLayer
-          attribution="&copy; OpenStreetMap contributors"
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        <Marker position={[27.7172, 85.324]}>
-          <Popup>Kathmandu, Nepal</Popup>
-        </Marker>
-      </MapContainer>
-    );
+// OSRM route fetch
+async function fetchRoutePoints(profile, start, end, signal) {
+  const [startLat, startLng] = start;
+  const [endLat, endLng] = end;
+
+  const url = `https://router.project-osrm.org/route/v1/${profile}/${startLng},${startLat};${endLng},${endLat}?overview=full&geometries=geojson&steps=false`;
+
+  const response = await fetch(url, { signal });
+  if (!response.ok) throw new Error("Route fetch failed");
+
+  const data = await response.json();
+  const coords = data?.routes?.[0]?.geometry?.coordinates;
+
+  if (!coords || coords.length < 2) {
+    throw new Error("No route geometry");
   }
 
-  const { origin, destination, journey } = routeData;
+  // convert [lng, lat] → [lat, lng]
+  return coords.map(([lng, lat]) => [lat, lng]);
+}
 
-  // User position
-  const userPos = [userLocation.lat, userLocation.lng];
+function MapView({ userLocation, routeData }) {
+  const [route, setRoute] = useState(null);
 
-  // Board and alight stop positions
-  const boardStopCoords = origin.nearest_stop.location.coordinates;
-  const boardPos = [boardStopCoords[1], boardStopCoords[0]]; // [lat, lng]
+  const isReady = Boolean(userLocation && routeData?.destination_coords);
 
-  const alightStopCoords = destination.nearest_stop.location.coordinates;
-  const alightPos = [alightStopCoords[1], alightStopCoords[0]];
-
-  // Destination position
-  const destPos = [
-    parseFloat(routeData.destination_coords.lat),
-    parseFloat(routeData.destination_coords.lng),
+  const userPos = [
+    userLocation?.lat ?? 27.7172,
+    userLocation?.lng ?? 85.324,
   ];
 
-  // Walking path: user → board stop (green)
-  const walkingToPath = [userPos, boardPos];
+  const destPos = [
+    parseFloat(routeData?.destination_coords?.lat ?? 27.7172),
+    parseFloat(routeData?.destination_coords?.lng ?? 85.324),
+  ];
 
-  // Bus path: all stops along the journey (blue)
-  const busPath = journey.stops_sequence
-    .map((stop) => {
-      // stops_sequence has stop names — match against nearest stop coords
-      // We use board and alight for a clean line
-      return null;
-    })
-    .filter(Boolean);
+  // fetch route (A → B)
+  useEffect(() => {
+    if (!isReady) return;
 
-  // Simpler: draw bus line directly between board and alight stops
-  const busRoutePath = [boardPos, alightPos];
+    const controller = new AbortController();
 
-  // Walking path: alight stop → destination (green)
-  const walkingFromPath = [alightPos, destPos];
+    const loadRoute = async () => {
+      try {
+        const path = await fetchRoutePoints(
+          "driving",
+          userPos,
+          destPos,
+          controller.signal
+        );
 
-  // All points for fitBounds
-  const allPoints = [userPos, boardPos, alightPos, destPos];
+        setRoute(path);
+      } catch (err) {
+        console.error("Route error:", err);
+        setRoute([userPos, destPos]); // fallback straight line
+      }
+    };
+
+    loadRoute();
+
+    return () => controller.abort();
+  }, [isReady, userPos[0], userPos[1], destPos[0], destPos[1]]);
 
   return (
     <MapContainer
@@ -108,55 +112,24 @@ function MapView({ routeData, userLocation }) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      <FitBounds points={allPoints} />
+      <FitBounds points={[userPos, destPos]} />
 
-      {/* User location marker */}
+      {/* markers */}
       <Marker position={userPos} icon={greenMarker}>
-        <Popup>📍 Your Location</Popup>
+        <Popup>📍 You</Popup>
       </Marker>
 
-      {/* Board stop marker */}
-      <Marker position={boardPos} icon={blueMarker}>
-        <Popup>
-          🚌 Board here
-          <br />
-          <strong>{origin.nearest_stop.name}</strong>
-          <br />
-          Route {journey.route_number}
-        </Popup>
-      </Marker>
-
-      {/* Alight stop marker */}
-      <Marker position={alightPos} icon={orangeMarker}>
-        <Popup>
-          🔔 Alight here
-          <br />
-          <strong>{destination.nearest_stop.name}</strong>
-        </Popup>
-      </Marker>
-
-      {/* Destination marker */}
       <Marker position={destPos} icon={redMarker}>
-        <Popup>🏛️ {destination.name}</Popup>
+        <Popup>🏁 Destination</Popup>
       </Marker>
 
-      {/* Green dashed line — walking to bus stop */}
-      <Polyline
-        positions={walkingToPath}
-        pathOptions={{ color: "#22c55e", weight: 4, dashArray: "8 6" }}
-      />
-
-      {/* Blue solid line — bus route */}
-      <Polyline
-        positions={busRoutePath}
-        pathOptions={{ color: "#3b82f6", weight: 5 }}
-      />
-
-      {/* Green dashed line — walking from bus stop to destination */}
-      <Polyline
-        positions={walkingFromPath}
-        pathOptions={{ color: "#22c55e", weight: 4, dashArray: "8 6" }}
-      />
+      {/* route line */}
+      {route && (
+        <Polyline
+          positions={route}
+          pathOptions= {{ color: "#3b82f6", weight: 5 }}
+        />
+      )}
     </MapContainer>
   );
 }

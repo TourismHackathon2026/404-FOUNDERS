@@ -16,6 +16,10 @@ function App() {
 
   const { location, loading: locLoading, getLocation } = useUserLocation();
 
+useEffect(() => {
+  if (!location) getLocation();
+}, []); 
+
   // Load destinations on mount
   useEffect(() => {
     axios
@@ -76,122 +80,49 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#f9fafb",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      {/* Header */}
-      <div
-        style={{
-          background: "#fff",
-          borderBottom: "1px solid #e5e7eb",
-          padding: "14px 16px",
-          display: "flex",
-          alignItems: "center",
-          gap: "10px",
-        }}
-      >
-        <span style={{ fontSize: "22px" }}>🚌</span>
-        <div>
-          <div style={{ fontSize: "16px", fontWeight: 700, color: "#111" }}>
-            Nepal Bus Guide
-          </div>
-          <div style={{ fontSize: "12px", color: "#9ca3af" }}>
-            Local buses for tourists — Bagmati Province
+    <div className="app-shell">
+      <header className="app-header">
+        <div className="app-brand">
+          <span className="app-brand__icon">🚌</span>
+          <div>
+            <div className="app-brand__title">Nepal Bus Guide</div>
+            <div className="app-brand__subtitle">
+              Local buses for tourists — Bagmati Province
+            </div>
           </div>
         </div>
-      </div>
+      </header>
 
-      {/* Map */}
-      <div style={{ height: "40vh", position: "relative" }}>
+      <section className="map-section">
         <MapView routeData={routeData} userLocation={location} />
 
         {/* Map legend */}
         {routeData && (
-          <div
-            style={{
-              position: "absolute",
-              bottom: "10px",
-              left: "10px",
-              background: "rgba(255,255,255,0.95)",
-              borderRadius: "8px",
-              padding: "8px 12px",
-              fontSize: "11px",
-              zIndex: 1000,
-              display: "flex",
-              flexDirection: "column",
-              gap: "4px",
-              boxShadow: "0 1px 6px rgba(0,0,0,0.15)",
-            }}
-          >
+          <div className="map-legend">
             <span>🟢 - - - Walking</span>
             <span>🔵 ——— Bus route</span>
           </div>
         )}
-      </div>
+      </section>
 
-      {/* Bottom panel */}
-      <div
-        style={{
-          flex: 1,
-          padding: "16px",
-          overflowY: "auto",
-          maxWidth: "600px",
-          width: "100%",
-          margin: "0 auto",
-        }}
-      >
+      <main className="content-sheet">
         {/* Location button */}
         {!location ? (
           <button
             onClick={getLocation}
             disabled={locLoading}
-            style={{
-              width: "100%",
-              padding: "14px",
-              background: locLoading ? "#93c5fd" : "#3b82f6",
-              color: "#fff",
-              border: "none",
-              borderRadius: "12px",
-              fontSize: "15px",
-              fontWeight: 600,
-              marginBottom: "16px",
-              transition: "background 0.2s",
-            }}
+            className="primary-action"
           >
             {locLoading ? "Getting your location..." : "📍 Use My Location"}
           </button>
         ) : (
-          <div
-            style={{
-              background: "#f0fdf4",
-              border: "1px solid #bbf7d0",
-              borderRadius: "10px",
-              padding: "10px 14px",
-              fontSize: "13px",
-              color: "#15803d",
-              marginBottom: "14px",
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
+          <div className="location-status">
             <span>📍 Location detected</span>
             <button
               onClick={() => {
                 getLocation();
               }}
-              style={{
-                fontSize: "12px",
-                color: "#15803d",
-                background: "none",
-                border: "none",
-                textDecoration: "underline",
-              }}
+              className="location-status__refresh"
             >
               Refresh
             </button>
@@ -207,31 +138,14 @@ function App() {
 
         {/* Loading state */}
         {loading && (
-          <div
-            style={{
-              textAlign: "center",
-              padding: "24px",
-              color: "#6b7280",
-              fontSize: "14px",
-            }}
-          >
+          <div className="feedback feedback--loading">
             🔍 Finding best bus route...
           </div>
         )}
 
         {/* Error state */}
         {error && (
-          <div
-            style={{
-              background: "#fef2f2",
-              border: "1px solid #fecaca",
-              borderRadius: "10px",
-              padding: "12px 16px",
-              color: "#dc2626",
-              fontSize: "13px",
-              marginTop: "12px",
-            }}
-          >
+          <div className="feedback feedback--error">
             ⚠️ {error}
           </div>
         )}
@@ -241,18 +155,11 @@ function App() {
 
         {/* Prompt if location set but no destination */}
         {location && !selectedDest && !loading && (
-          <div
-            style={{
-              textAlign: "center",
-              color: "#9ca3af",
-              fontSize: "13px",
-              padding: "20px 0",
-            }}
-          >
+          <div className="empty-state">
             Select a destination above to find your bus route
           </div>
         )}
-      </div>
+      </main>
     </div>
   );
 }
