@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "from": "Ratnapark",
+    "to": "Balkhu",
+    "stops": ["Ratnapark", "Tripureshwor", "Teku", "Kalimati", "Balkhu"],
+    "type": "Bus, Micro",
+    "yatayat": "Samyukta Yatayat, Kirtipur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 2,
+    "from": "Ratnapark",
+    "to": "Jadibuti",
+    "stops": ["Ratnapark", "Putalisadak", "Maitidevi", "Purano Baneshwor", "Tinkune", "Koteshwor", "Jadibuti"],
+    "type": "Micro",
+    "yatayat": "Baneshwor Micro-Bus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 3,
+    "from": "Lagankhel",
+    "to": "Satdobato",
+    "stops": ["Lagankhel", "Jawalakhel", "Kumaripati", "Satdobato"],
+    "type": "Bus, Tempo",
+    "yatayat": "Lalitpur Yatayat, Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 4,
+    "from": "New Buspark",
+    "to": "Thamel",
+    "stops": ["Gongabu Buspark", "Samakhusi", "Lainchaur", "Thamel"],
+    "type": "Micro",
+    "yatayat": "Gongabu-Ratnapark Micro-Bus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 5,
+    "from": "Airport",
+    "to": "Ratnapark",
+    "stops": ["Tribhuvan Airport", "Tinkune", "Minbhawan", "Naya Baneshwor", "Babarmahal", "Maitighar", "Bhadrakali", "Bagbazar", "Ratnapark"],
+    "type": "Bus",
+    "yatayat": "Sajha Yatayat, Mahanagar Yatayat",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 6,
+    "from": "Lagankhel",
+    "to": "Bhaktapur",
+    "stops": ["Lagankhel", "Satdobato", "Gwarko", "Balkumari", "Koteshwor", "Jadibuti", "Lokanthali", "Kaushaltar", "Gaththaghar", "Thimi", "Sallaghari", "Suryabinayak"],
+    "type": "Sajha Yatayat",
+    "yatayat": "Sajha Yatayat (Line 4)",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 7,
+    "from": "Lagankhel",
+    "to": "Godawari",
+    "stops": ["Lagankhel", "Satdobato", "Harisiddhi", "Thaiba", "Badegaon", "Godawari"],
+    "type": "Micro, Bus",
+    "yatayat": "Hattiban-Godawari Micro/Bus Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 8,
+    "from": "Bhaktapur",
+    "to": "Kalanki",
+    "stops": ["Suryabinayak", "Sallaghari", "Thimi", "Koteshwor", "Tinkune", "Naya Baneshwor", "Maitighar", "Thapathali", "Tripureshwor", "Teku", "Kalimati", "Kalanki"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 9,
+    "from": "Suryabinayak",
+    "to": "Kirtipur",
+    "stops": ["Suryabinayak", "Sallaghari", "Thimi", "Koteshwor", "Balkumari", "Gwarko", "Satdobato", "Ekantakuna", "Balkhu", "TU Gate", "Kirtipur"],
+    "type": "Bus, Micro",
+    "yatayat": "Mahanagar Yatayat, Kirtipur Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 10,
+    "from": "Lagankhel",
+    "to": "Jorpati",
+    "stops": ["Lagankhel", "Jawalakhel", "Pulchowk", "Kupondole", "Thapathali", "Tripureshwor", "Sundhara", "Ratnapark", "Jamal", "Kamaladi", "Putalisadak", "Kalopul", "Chabahil", "Bouddha", "Jorpati"],
+    "type": "Sajha Yatayat",
+    "yatayat": "Sajha Yatayat (Line 1)",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 11,
+    "from": "Gongabu",
+    "to": "Lagankhel",
+    "stops": ["Gongabu Buspark", "Machhapokhari", "Balaju", "Sorhakhutte", "Naya Bazar", "Kalimati", "Balkhu", "Sanepa", "Ekantakuna", "Jawalakhel", "Lagankhel"],
+    "type": "Micro",
+    "yatayat": "Samyukta Yatayat Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 12,
+    "from": "Kalanki",
+    "to": "Naikap",
+    "stops": ["Kalanki", "Dhungeadda", "Naikap", "Machhegaun"],
+    "type": "Bus, Micro",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 13,
+    "from": "Bhaktapur",
+    "to": "Nakhkhu",
+    "stops": ["Suryabinayak", "Sallaghari", "Koteshwor", "Balkumari", "Gwarko", "Satdobato", "Ekantakuna", "Nakhkhu"],
+    "type": "Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 14,
+    "from": "Airport",
+    "to": "New Road",
+    "stops": ["Tribhuvan Airport", "Sinamangal", "Gaushala", "Tilganga", "Chabahil", "Ratnapark", "Sundhara", "New Road Gate"],
+    "type": "Bus",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 15,
+    "from": "Jorpati",
+    "to": "Satdobato",
+    "stops": ["Jorpati", "Bouddha", "Chabahil", "Old Baneshwor", "Mid-Baneshwor", "Minbhawan", "Tinkune", "Koteshwor", "Balkumari", "Gwarko", "Satdobato"],
+    "type": "Micro, Tempo",
+    "yatayat": "Chabahil-Satdobato Micro Committee",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 16,
+    "from": "Lagankhel",
+    "to": "Gwarko",
+    "stops": ["Lagankhel", "Jawalakhel", "Patan Hospital", "Kumaripati", "Gwarko", "Imadol"],
+    "type": "Tempo",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 17,
+    "from": "Balkhu",
+    "to": "Swayambhu",
+    "stops": ["Balkhu", "Kuleshwor", "Kalimati", "Kalanki", "Bafal", "Sitapaila", "Ramkot", "Swoyambhu", "Halchowk"],
+    "type": "Bus",
+    "yatayat": "Swayambhu Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 18,
+    "from": "Bhaktapur",
+    "to": "Ratnapark",
+    "stops": ["Suryabinayak", "Sallaghari", "Thimi", "Gaththaghar", "Lokanthali", "Jadibuti", "Koteshwor", "Tinkune", "Purano Baneshwor", "Maitidevi", "Putalisadak", "Bagbazar", "Ratnapark"],
+    "type": "Sajha Yatayat",
+    "yatayat": "Sajha Yatayat",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 19,
+    "from": "Suryabinayak",
+    "to": "Pulchowk",
+    "stops": ["Suryabinayak", "Sallaghari", "Koteshwor", "Balkumari", "Gwarko", "Satdobato", "Lagankhel", "Jawalakhel", "Pulchowk"],
+    "type": "Micro",
+    "yatayat": "Bhaktapur-Lalitpur Micro Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 20,
+    "from": "Thankot",
+    "to": "Ratnapark",
+    "stops": ["Thankot Checkpost", "Mahadevsthan", "Satungal", "Gurjudhara", "Naikap", "Dhungeadda", "Kalanki", "Kalimati", "Teku", "Tripureshwor", "Sundhara", "Ratnapark"],
+    "type": "Bus",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 21,
+    "from": "Gongabu",
+    "to": "Full Loop",
+    "stops": ["Gongabu Buspark", "Machhapokhari", "Balaju", "Banasthali", "Dhungedhara", "Sanobharyang", "Thulobharyang", "Swoyambhu", "Sitapaila", "Bafal", "Kalanki", "Khasibazar", "Sita Pump", "Balkhu", "Sanepa", "Dhobighat", "Ekantakuna", "Mahalaxmisthan", "Satdobato", "Gwarko", "Koteshwor", "Tribhuvan Airport", "Tilganga", "Chabahil", "Narayan Gopal Chowk", "Basundhara", "Samakhusi", "Gongabu Buspark"],
+    "type": "Large Bus (Ring Road Circle)",
+    "yatayat": "Mahanagar Yatayat, Sajha Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 22,
+    "from": "Ratnapark",
+    "to": "Budhanilkantha",
+    "stops": ["Ratnapark", "Jamal", "Lainchaur", "Lazimpat", "Narayan Gopal Chowk", "Bansbari", "Golfutar", "Bhangrahiti", "Narayanthan", "Budhanilkantha School"],
+    "type": "Bus, Micro",
+    "yatayat": "Budhanilkantha Yatayat, Sajha Yatayat",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 23,
+    "from": "Ratnapark",
+    "to": "Kapan",
+    "stops": ["Ratnapark", "Bagbazar", "Kamalpokhari", "Charkhal", "Kalopul", "Chabahil", "Sukhedhara", "Kapan Gumba"],
+    "type": "Micro, Tempo",
+    "yatayat": "Kapan Micro-Bus Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 24,
+    "from": "New Buspark",
+    "to": "Bouddha",
+    "stops": ["Gongabu Buspark", "Samakhusi", "Basundhara", "Narayan Gopal Chowk", "Chabahil", "Bouddha", "Jorpati"],
+    "type": "Micro, Bus",
+    "yatayat": "Gokarneshwor Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 25,
+    "from": "Ratnapark",
+    "to": "Kirtipur",
+    "stops": ["Ratnapark", "Sundhara", "Sahid Gate", "Tripureshwor", "Teku", "Kalimati", "Kuleshwor", "Balkhu", "TU Gate", "Naya Bazaar", "Kirtipur Hillside"],
+    "type": "Bus, Micro",
+    "yatayat": "Kirtipur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 26,
+    "from": "Ratnapark",
+    "to": "Tokha",
+    "stops": ["Ratnapark", "Jamal", "Lainchaur", "Sorakhutte", "Gongabu", "Samakhusi Chowk", "Grande Hospital", "Tokha"],
+    "type": "Micro, Bus",
+    "yatayat": "Tokha Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 27,
+    "from": "Kalanki",
+    "to": "Chabahil",
+    "stops": ["Kalanki", "Bafal", "Sitapaila", "Swoyambhu", "Thulobharyang", "Banasthali", "Balaju", "Machhapokhari", "Gongabu Buspark", "Samakhusi", "Basundhara", "Narayan Gopal Chowk", "Dhumbarahi", "Chabahil"],
+    "type": "Bus, Micro",
+    "yatayat": "Mahanagar Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 28,
+    "from": "Ratnapark",
+    "to": "Sankhu",
+    "stops": ["Ratnapark", "Putalisadak", "Kalopul", "Chabahil", "Bouddha", "Jorpati", "Makalbari", "Mulpani", "Thali", "Sankhu"],
+    "type": "Large Bus",
+    "yatayat": "Sankhu Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 29,
+    "from": "Ratnapark",
+    "to": "Dharmasthali",
+    "stops": ["Ratnapark", "Lainchaur", "Sorakhutte", "Balaju", "Bypass", "Machhapokhari", "Padamsal", "Dharmasthali"],
+    "type": "Bus, Micro",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 30,
+    "from": "Ratnapark",
+    "to": "Kakani",
+    "stops": ["Ratnapark", "Lainchaur", "Balaju", "Bypass", "Mudkhu", "Trishuli Highway", "Kakani"],
+    "type": "Local Bus",
+    "yatayat": "Pasang Lhamu Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 31,
+    "from": "Sundhara",
+    "to": "Balaju",
+    "stops": ["Sundhara", "Ratnapark", "Jamal", "Lainchaur", "Sorakhutte", "Naya Bazar", "Balaju Bhatbheteni", "Machhapokhari"],
+    "type": "Micro",
+    "yatayat": "Gongabu-Ratnapark Micro-Bus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 32,
+    "from": "Old Buspark",
+    "to": "New Baneshwor",
+    "stops": ["Old Buspark", "Bhadrakali", "Thapathali", "Babarmahal", "Naya Baneshwor", "Mid-Baneshwor", "Sinamangal"],
+    "type": "Tempo, Micro",
+    "yatayat": "Baneshwor Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 33,
+    "from": "Ratnapark",
+    "to": "Goldhunga",
+    "stops": ["Ratnapark", "Lainchaur", "Balaju", "Machhapokhari", "Phutung", "Goldhunga"],
+    "type": "Micro, Bus",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 34,
+    "from": "Balkhu",
+    "to": "Chabahil",
+    "stops": ["Balkhu", "Sanepa", "Dhobighat", "Ekantakuna", "Satdobato", "Gwarko", "Balkumari", "Koteshwor", "Tinkune", "Gaushala", "Tilganga", "Chabahil"],
+    "type": "Bus",
+    "yatayat": "Mahanagar Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 35,
+    "from": "Ratnapark",
+    "to": "Sundarijal",
+    "stops": ["Ratnapark", "Jamal", "Kamaladi", "Putalisadak", "Dillibazar", "Charkhal", "Kalopul", "Chabahil", "Bouddha", "Jorpati", "Makalbari", "Gokarna", "Nayapati", "Sundarijal"],
+    "type": "Bus",
+    "yatayat": "Sundarijal Yatayat, Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 36,
+    "from": "New Buspark",
+    "to": "Koteshwor",
+    "stops": ["Gongabu Buspark", "Samakhusi", "Basundhara", "Narayan Gopal Chowk", "Chabahil", "Gaushala", "Tilganga", "Tribhuvan Airport", "Koteshwor"],
+    "type": "Bus, Micro",
+    "yatayat": "Mayur Yatayat, Mahanagar Yatayat",
+    "yatayat_support": "01-5902318"
+  },
+  {
+    "id": 37,
+    "from": "Ratnapark",
+    "to": "Gongabu",
+    "stops": ["Ratnapark", "Jamal", "Lainchaur", "Lazimpat", "Narayan Gopal Chowk", "Basundhara", "Samakhusi", "Gongabu Buspark"],
+    "type": "Micro",
+    "yatayat": "Gongabu-Ratnapark Micro-Bus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 38,
+    "from": "Kirtipur",
+    "to": "Chabahil",
+    "stops": ["Kirtipur", "Naya Bazaar", "TU Gate", "Balkhu", "Kalimati", "Teku", "Tripureshwor", "Sundhara", "Ratnapark", "Bagbazar", "Kamalpokhari", "Charkhal", "Chabahil"],
+    "type": "Bus",
+    "yatayat": "Kirtipur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 39,
+    "from": "Ratnapark",
+    "to": "Syuchatar",
+    "stops": ["Ratnapark", "Sundhara", "Tripureshwor", "Kalimati", "Kalanki", "Syuchatar", "Syuchatar Hill"],
+    "type": "Micro",
+    "yatayat": "Swayambhu Yatayat Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 40,
+    "from": "Sundhara",
+    "to": "Ramkot",
+    "stops": ["Sundhara", "Tripureshwor", "Kalimati", "Kalanki", "Bafal", "Sitapaila", "Ramkot"],
+    "type": "Bus, Micro",
+    "yatayat": "Swayambhu Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 41,
+    "from": "Lagankhel",
+    "to": "Lubhu",
+    "stops": ["Lagankhel", "Kumaripati", "Satdobato", "Gwarko", "Imadol", "Krishna Mandir", "Sanagaon", "Lubhu"],
+    "type": "Micro, Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 42,
+    "from": "Ratnapark",
+    "to": "Bungamati",
+    "stops": ["Ratnapark", "Bhadrakali", "Maitighar", "Thapathali", "Kupondole", "Pulchowk", "Jawalakhel", "Ekantakuna", "Bhaisepati", "Bungamati"],
+    "type": "Bus, Micro",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 43,
+    "from": "Lagankhel",
+    "to": "Dhapakhel",
+    "stops": ["Lagankhel", "Satdobato", "Civil Homes", "Gems School", "Dhapakhel"],
+    "type": "Micro, Safa Tempo",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 44,
+    "from": "Lagankhel",
+    "to": "Lele",
+    "stops": ["Lagankhel", "Satdobato", "Harisiddhi", "Thaiba", "Godamchaur", "Lele"],
+    "type": "Local Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 45,
+    "from": "Ratnapark",
+    "to": "Tikathali",
+    "stops": ["Ratnapark", "Bhadrakali", "Maitighar", "Thapathali", "Babarmahal", "Naya Baneshwor", "Tinkune", "Koteshwor", "Jadibuti", "Tikathali"],
+    "type": "Micro",
+    "yatayat": "Baneshwor-Koteshwor Micro Committee",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 46,
+    "from": "Lagankhel",
+    "to": "Changathali",
+    "stops": ["Lagankhel", "Gwarko", "Imadol", "Shital Height", "Changathali"],
+    "type": "Micro",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 47,
+    "from": "Sundhara",
+    "to": "Bhaisepati",
+    "stops": ["Sundhara", "Sahid Gate", "Thapathali", "Kupondole", "Pulchowk", "Jawalakhel", "Ekantakuna", "Sainbu", "Bhaisepati"],
+    "type": "Micro, Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 48,
+    "from": "Lagankhel",
+    "to": "Lamatar",
+    "stops": ["Lagankhel", "Gwarko", "Imadol", "Lubhu", "Shuvatara School", "Lamatar"],
+    "type": "Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 49,
+    "from": "Ratnapark",
+    "to": "Sunakothi",
+    "stops": ["Ratnapark", "Bhadrakali", "Maitighar", "Thapathali", "Kupondole", "Pulchowk", "Jawalakhel", "Satdobato", "Dhapakhel", "Sunakothi"],
+    "type": "Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 50,
+    "from": "Lagankhel",
+    "to": "Sisneri",
+    "stops": ["Lagankhel", "Satdobato", "Chapagaon", "Khokana crossroads", "Sisneri"],
+    "type": "Local Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 51,
+    "from": "Pulchowk",
+    "to": "New Buspark",
+    "stops": ["Pulchowk", "Kupondole", "Thapathali", "Sundhara", "Ratnapark", "Jamal", "Lainchaur", "Samakhusi", "Gongabu Buspark"],
+    "type": "Bus (Sajha)",
+    "yatayat": "Sajha Yatayat (Line 1)",
+    "yatayat_support": "01-5452686"
+  },
+  {
+    "id": 52,
+    "from": "Lagankhel",
+    "to": "Balkhu",
+    "stops": ["Lagankhel", "Jawalakhel", "Ekantakuna", "Sanepa", "Balkhu"],
+    "type": "Micro",
+    "yatayat": "Lagankhel Micro-Bus Committee",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 53,
+    "from": "Satdobato",
+    "to": "New Road",
+    "stops": ["Satdobato", "Lagankhel", "Patan Dhoka", "Kupondole", "Thapathali", "Sundhara", "New Road Gate"],
+    "type": "Tempo, Micro",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 54,
+    "from": "Lagankhel",
+    "to": "Pyanggaon",
+    "stops": ["Lagankhel", "Satdobato", "Harisiddhi", "Thaiba", "Badegaon", "Pyanggaon"],
+    "type": "Micro",
+    "yatayat": "Hattiban-Godawari Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 55,
+    "from": "Ratnapark",
+    "to": "Chapagaon",
+    "stops": ["Ratnapark", "Bhadrakali", "Thapathali", "Kupondole", "Jawalakhel", "Satdobato", "Sunakothi", "Thecho", "Chapagaon"],
+    "type": "Large Bus",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 56,
+    "from": "Lagankhel",
+    "to": "Chhampi",
+    "stops": ["Lagankhel", "Jawalakhel", "Ekantakuna", "Bhaisepati", "Bungamati", "Chhampi"],
+    "type": "Micro",
+    "yatayat": "Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 57,
+    "from": "Gwarko",
+    "to": "New Road",
+    "stops": ["Gwarko", "Balkumari", "Koteshwor", "Tinkune", "Naya Baneshwor", "Babarmahal", "Maitighar", "Thapathali", "Sundhara", "New Road Gate"],
+    "type": "Bus",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 58,
+    "from": "Lagankhel",
+    "to": "Mangal Bazar",
+    "stops": ["Lagankhel", "Patan Loop", "Chyasal", "Mangal Bazar"],
+    "type": "Safa Tempo",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 59,
+    "from": "Balkhu",
+    "to": "Koteshwor",
+    "stops": ["Balkhu", "Sanepa", "Dhobighat", "Ekantakuna", "Mahalaxmisthan", "Satdobato", "Gwarko", "Balkumari", "Koteshwor"],
+    "type": "Micro, Bus",
+    "yatayat": "Mahanagar Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 60,
+    "from": "Lagankhel",
+    "to": "Bhatkyapati",
+    "stops": ["Lagankhel", "Jawalakhel", "Pulchowk", "Jhamsikhel", "Bhatkyapati"],
+    "type": "Tempo",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 61,
+    "from": "Chabahil",
+    "to": "Kamalavinayak",
+    "stops": ["Chabahil", "Gopi Krishna", "Koteshwor", "Jadibuti", "Lokanthali", "Kaushaltar", "Gaththaghar", "Thimi", "Sallaghari", "Kamalavinayak"],
+    "type": "Bus, Micro",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 62,
+    "from": "Ratnapark",
+    "to": "Nagarkot",
+    "stops": ["Ratnapark", "Bhadrakali", "Naya Baneshwor", "Koteshwor", "Thimi", "Sallaghari", "Kamalavinayak", "Nagarkot"],
+    "type": "Bus (Direct/Transfer)",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti / Local Shuttles",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 63,
+    "from": "Ratnapark",
+    "to": "Changunarayan",
+    "stops": ["Ratnapark", "Koteshwor", "Jadibuti", "Lokanthali", "Kaushaltar", "Duwakot", "Mwahan", "Changunarayan"],
+    "type": "Bus",
+    "yatayat": "Changunarayan Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 64,
+    "from": "Lagankhel",
+    "to": "Bhaktapur",
+    "stops": ["Lagankhel", "Gwarko", "Balkumari", "Koteshwor", "Jadibuti", "Lokanthali", "Thimi", "Bhaktapur"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 65,
+    "from": "Suryabinayak",
+    "to": "New Buspark",
+    "stops": ["Suryabinayak", "Sallaghari", "Thimi", "Koteshwor", "Tinkune", "Tribhuvan Airport", "Gaushala", "Chabahil", "Narayan Gopal Chowk", "Maharajgunj", "Basundhara", "Samakhusi", "Gongabu Buspark"],
+    "type": "Large Bus",
+    "yatayat": "Mayur Yatayat, Mahanagar Yatayat",
+    "yatayat_support": "01-5902318"
+  },
+  {
+    "id": 66,
+    "from": "Ratnapark",
+    "to": "Dadhikot",
+    "stops": ["Ratnapark", "Koteshwor", "Jadibuti", "Lokanthali", "Dadhikot"],
+    "type": "Micro, Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 67,
+    "from": "Ratnapark",
+    "to": "Gamcha",
+    "stops": ["Ratnapark", "Koteshwor", "Lokanthali", "Thimi Radhe Radhe", "Gamcha"],
+    "type": "Micro",
+    "yatayat": "Bhaktapur Microbus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 68,
+    "from": "Bagbazar",
+    "to": "Kharipati",
+    "stops": ["Bagbazar", "Koteshwor", "Sallaghari", "Kamalavinayak", "Kharipati"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 69,
+    "from": "Ratnapark",
+    "to": "Sudal",
+    "stops": ["Ratnapark", "Koteshwor", "Sallaghari", "Chyamasingh", "Sudal"],
+    "type": "Local Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 70,
+    "from": "Suryabinayak",
+    "to": "Kapan",
+    "stops": ["Suryabinayak", "Sallaghari", "Koteshwor", "Tinkune", "Gaushala", "Chabahil", "Sukhedhara", "Kapan"],
+    "type": "Micro",
+    "yatayat": "Kapan Micro-Bus Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 71,
+    "from": "Kamalavinayak",
+    "to": "Sipadol",
+    "stops": ["Kamalavinayak", "Suryabinayak", "Jagati", "Sipadol"],
+    "type": "Micro",
+    "yatayat": "Bhaktapur Microbus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 72,
+    "from": "Ratnapark",
+    "to": "Tathali",
+    "stops": ["Ratnapark", "Koteshwor", "Sallaghari", "Chyamasingh", "Tathali"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 73,
+    "from": "Chabahil",
+    "to": "Nalininchowk",
+    "stops": ["Chabahil", "Koteshwor", "Jadibuti", "Lokanthali", "Sallaghari", "Nalininchowk"],
+    "type": "Micro",
+    "yatayat": "Bhaktapur Microbus Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 74,
+    "from": "Ratnapark",
+    "to": "Gundu",
+    "stops": ["Ratnapark", "Koteshwor", "Thimi", "Suryabinayak", "Gundu"],
+    "type": "Micro, Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 75,
+    "from": "Old Buspark",
+    "to": "Jhaukhel",
+    "stops": ["Old Buspark", "Koteshwor", "Radhe Radhe", "Sallaghari", "Jhaukhel"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 76,
+    "from": "Kamalavinayak",
+    "to": "Changunarayan",
+    "stops": ["Kamalavinayak", "Chaling", "Phedi", "Changunarayan"],
+    "type": "Local Mini Bus",
+    "yatayat": "Changunarayan Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 77,
+    "from": "Ratnapark",
+    "to": "Telkot",
+    "stops": ["Ratnapark", "Koteshwor", "Bhaktapur", "Kamalavinayak", "Telkot"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 78,
+    "from": "Lagankhel",
+    "to": "Suryabinayak",
+    "stops": ["Lagankhel", "Gwarko", "Koteshwor", "Jadibuti", "Thimi", "Sallaghari", "Suryabinayak"],
+    "type": "Micro",
+    "yatayat": "Bhaktapur-Lalitpur Micro Association",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 79,
+    "from": "New Buspark",
+    "to": "Kamalavinayak",
+    "stops": ["Gongabu Buspark", "Balaju", "Maharajgunj", "Chabahil", "Koteshwor", "Thimi", "Kamalavinayak"],
+    "type": "Large Bus",
+    "yatayat": "Mayur Yatayat",
+    "yatayat_support": "01-5902318"
+  },
+  {
+    "id": 80,
+    "from": "Ratnapark",
+    "to": "Bageshwari",
+    "stops": ["Ratnapark", "Koteshwor", "Bhaktapur", "Chyamasingh", "Bageshwari"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 81,
+    "from": "Ratnapark",
+    "to": "Mudkhu",
+    "stops": ["Ratnapark", "Lainchaur", "Sorakhutte", "Balaju", "Bypass", "Mudkhu"],
+    "type": "Micro",
+    "yatayat": "Samyukta Yatayat Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 82,
+    "from": "Ratnapark",
+    "to": "Southern Loop",
+    "stops": ["Ratnapark", "Chabahil", "Bouddha", "Jorpati", "Mulpani", "Gothatar"],
+    "type": "Bus, Micro",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 83,
+    "from": "Sundhara",
+    "to": "Thankot (Checkpost)",
+    "stops": ["Sundhara", "Tripureshwor", "Kalimati", "Kalanki", "Naikap", "Satungal", "Gurjudhara", "Thankot Checkpost"],
+    "type": "Bus, Micro",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 84,
+    "from": "Ratnapark",
+    "to": "Jitpurphedi",
+    "stops": ["Ratnapark", "Balaju", "Machhapokhari", "Dharmasthali", "Jitpurphedi"],
+    "type": "Local Bus",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 85,
+    "from": "Lagankhel",
+    "to": "Godawari",
+    "stops": ["Lagankhel", "Satdobato", "Harisiddhi", "Thaiba", "Badegaon", "Godawari"],
+    "type": "Large Bus",
+    "yatayat": "Hattiban-Godawari Micro/Bus Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 86,
+    "from": "New Buspark",
+    "to": "Sanga",
+    "stops": ["Gongabu Buspark", "Maharajgunj", "Chabahil", "Koteshwor", "Bhaktapur", "Suryabinayak", "Jagati", "Sanga"],
+    "type": "Bus",
+    "yatayat": "Mayur Yatayat, Mahanagar Yatayat",
+    "yatayat_support": "01-5902318"
+  },
+  {
+    "id": 87,
+    "from": "Ratnapark",
+    "to": "Gurjudhara",
+    "stops": ["Ratnapark", "Kalimati", "Kalanki", "Naikap", "Gurjudhara"],
+    "type": "Micro",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 88,
+    "from": "Balkhu",
+    "to": "Chobhar",
+    "stops": ["Balkhu", "Chobhar Gate", "Taudaha", "Pharping"],
+    "type": "Bus",
+    "yatayat": "Dakshinkali Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 89,
+    "from": "Ratnapark",
+    "to": "Pharping (Dakshinkali)",
+    "stops": ["Ratnapark", "Sundhara", "Tripureshwor", "Teku", "Balkhu", "Chobhar", "Taudaha", "Shesnarayan", "Pharping", "Dakshinkali Temple"],
+    "type": "Large Bus",
+    "yatayat": "Dakshinkali Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 90,
+    "from": "Lagankhel",
+    "to": "Tikathali",
+    "stops": ["Lagankhel", "Gwarko", "Imadol", "Sanagaon", "Tikathali"],
+    "type": "Tempo",
+    "yatayat": "Lalitpur Safa Tempo Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 91,
+    "from": "Ratnapark",
+    "to": "Matatirth",
+    "stops": ["Ratnapark", "Kalimati", "Kalanki", "Satungal", "Matatirth"],
+    "type": "Micro, Bus",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 92,
+    "from": "New Buspark",
+    "to": "Tokha",
+    "stops": ["Gongabu Buspark", "Samakhusi Chowk", "Jharana", "Tokha Bazar"],
+    "type": "Micro",
+    "yatayat": "Tokha Yatayat Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 93,
+    "from": "Ratnapark",
+    "to": "Goldhunga",
+    "stops": ["Ratnapark", "Balaju", "Bypass", "Kalikanagar", "Goldhunga"],
+    "type": "Micro",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 94,
+    "from": "Ratnapark",
+    "to": "Kageshwari",
+    "stops": ["Ratnapark", "Chabahil", "Jorpati", "Thali", "Gagalphedi", "Kageshwari"],
+    "type": "Bus",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 95,
+    "from": "Sundhara",
+    "to": "Dahachowk",
+    "stops": ["Sundhara", "Kalimati", "Kalanki", "Syuchatar", "Dahachowk"],
+    "type": "Micro",
+    "yatayat": "Swayambhu Yatayat Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 96,
+    "from": "Lagankhel",
+    "to": "Badegaon",
+    "stops": ["Lagankhel", "Satdobato", "Harisiddhi", "Thaiba", "Badegaon"],
+    "type": "Tempo, Micro",
+    "yatayat": "Hattiban-Godawari Micro Sewa",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 97,
+    "from": "Ratnapark",
+    "to": "Machhegaun",
+    "stops": ["Ratnapark", "Kalimati", "Balkhu", "Kirtipur", "Naya Bazaar", "Machhegaun"],
+    "type": "Bus",
+    "yatayat": "Kirtipur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 98,
+    "from": "Chabahil",
+    "to": "Mulpani",
+    "stops": ["Chabahil", "Jorpati", "Narayantar", "Greenhill City", "Mulpani"],
+    "type": "Micro, Tempo",
+    "yatayat": "Gokarneshwor Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 99,
+    "from": "Ratnapark",
+    "to": "Kavresthali",
+    "stops": ["Ratnapark", "Balaju", "Machhapokhari", "Shanti Tole", "Kavresthali"],
+    "type": "Bus, Micro",
+    "yatayat": "Samyukta Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 100,
+    "from": "Koteshwor",
+    "to": "New Buspark (South Loop)",
+    "stops": ["Koteshwor", "Balkumari", "Gwarko", "Satdobato", "Balkhu", "Kalanki", "Balaju", "Gongabu Buspark"],
+    "type": "Micro, Bus",
+    "yatayat": "Mahanagar Yatayat",
+    "yatayat_support": "01-4390904"
+  }
+]
