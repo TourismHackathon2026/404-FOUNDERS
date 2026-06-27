@@ -156,7 +156,7 @@ useEffect(() => {
         {/* Prompt if location set but no destination */}
         {location && !selectedDest && !loading && (
           <div className="empty-state">
-            Select a destination above to find your bus route
+            Search a destination above, then tap Go to find your bus route
           </div>
         )}
       </main>

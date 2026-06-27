@@ -1,63 +1,92 @@
+import { useEffect, useMemo, useState } from "react";
+
 function DestinationPicker({ destinations = [], selected, onSelect }) {
+  const [query, setQuery] = useState(selected?.name || "");
+
+  useEffect(() => {
+    setQuery(selected?.name || "");
+  }, [selected?.name]);
+
+  const matches = useMemo(() => {
+    const term = query.trim().toLowerCase();
+    if (!term) return destinations;
+
+    return destinations.filter((dest) =>
+      dest.name.toLowerCase().includes(term),
+    );
+  }, [destinations, query]);
+
+  const handleGo = () => {
+    if (!query.trim()) return;
+
+    const exactMatch = destinations.find(
+      (dest) => dest.name.toLowerCase() === query.trim().toLowerCase(),
+    );
+
+    if (exactMatch) {
+      onSelect(exactMatch);
+      return;
+    }
+
+    if (matches.length > 0) {
+      onSelect(matches[0]);
+    }
+  };
+
   return (
-    <div style={{ marginBottom: "1rem" }}>
-      <label
-        style={{
-          fontSize: "13px",
-          fontWeight: 500,
-          color: "#666",
-          display: "block",
-          marginBottom: "6px",
-        }}
-      >
-        Where do you want to go?
-      </label>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-          gap: "8px",
-        }}
-      >
-        {destinations.length > 0 ? (
-          destinations.map((dest, i) => (
-            <button
-              key={i}
-              onClick={() => onSelect(dest)}
-              style={{
-                padding: "10px 12px",
-                borderRadius: "10px",
-                border:
-                  selected?.name === dest.name
-                    ? "2px solid #3b82f6"
-                    : "1.5px solid #e5e7eb",
-                background: selected?.name === dest.name ? "#eff6ff" : "#fff",
-                color: selected?.name === dest.name ? "#1d4ed8" : "#374151",
-                fontSize: "13px",
-                fontWeight: selected?.name === dest.name ? 600 : 400,
-                textAlign: "left",
-                cursor: "pointer",
-                transition: "all 0.15s",
-              }}
-            >
-              {dest.name}
-            </button>
-          ))
-        ) : (
-          <div
-            style={{
-              gridColumn: "1 / -1",
-              padding: "14px 16px",
-              background: "#f3f4f6",
-              borderRadius: "10px",
-              color: "#6b7280",
-              fontSize: "13px",
-            }}
-          >
-            Loading destinations...
-          </div>
-        )}
+    <div className="destination-picker">
+      <label className="destination-picker__label">Where do you want to go?</label>
+
+      <div className="destination-picker__search-row">
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleGo();
+            }
+          }}
+          placeholder="Search destination"
+          className="destination-picker__input"
+          list="destination-options"
+        />
+        <button onClick={handleGo} className="destination-picker__go">
+          Go
+        </button>
       </div>
+
+      <datalist id="destination-options">
+        {destinations.map((dest) => (
+          <option key={dest.name} value={dest.name} />
+        ))}
+      </datalist>
+
+      {destinations.length > 0 && matches.length > 0 && query.trim() && (
+        <div className="destination-picker__results">
+          {matches.slice(0, 5).map((dest) => (
+            <button
+              key={dest.name}
+              type="button"
+              onClick={() => {
+                setQuery(dest.name);
+                onSelect(dest);
+              }}
+              className={`destination-picker__result ${
+                selected?.name === dest.name ? "is-active" : ""
+              }`}
+            >
+              <span>{dest.name}</span>
+              <span className="destination-picker__result-arrow">→</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {destinations.length === 0 ? (
+        <div className="destination-picker__loading">Loading destinations...</div>
+      ) : query.trim() && matches.length === 0 ? (
+        <div className="destination-picker__loading">No matching destination</div>
+      ) : null}
     </div>
   );
 }
