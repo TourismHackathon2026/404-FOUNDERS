@@ -147,7 +147,11 @@
     "id": 17,
     "from": "Balkhu",
     "to": "Swayambhu",
+<<<<<<< HEAD
+    "stops": ["Balkhu", "Kuleshwor", "Kalimati", "Kalanki", "Bafal", "Sitapaila", "Ramkot", "Swayambhu", "Halchowk"],
+=======
     "stops": ["Balkhu", "Kuleshwor", "Kalimati", "Kalanki", "Bafal", "Sitapaila", "Ramkot", "Swoyambhu", "Halchowk"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Bus",
     "yatayat": "Swayambhu Yatayat",
     "yatayat_support": "N/A"
@@ -183,7 +187,11 @@
     "id": 21,
     "from": "Gongabu",
     "to": "Full Loop",
+<<<<<<< HEAD
+    "stops": ["Gongabu Buspark", "Machhapokhari", "Balaju", "Banasthali", "Dhungedhara", "Sanobharyang", "Thulobharyang", "Swayambhu", "Sitapaila", "Bafal", "Kalanki", "Khasibazar", "Sita Pump", "Balkhu", "Sanepa", "Dhobighat", "Ekantakuna", "Mahalaxmisthan", "Satdobato", "Gwarko", "Koteshwor", "Tribhuvan Airport", "Tilganga", "Chabahil", "Narayan Gopal Chowk", "Basundhara", "Samakhusi", "Gongabu Buspark"],
+=======
     "stops": ["Gongabu Buspark", "Machhapokhari", "Balaju", "Banasthali", "Dhungedhara", "Sanobharyang", "Thulobharyang", "Swoyambhu", "Sitapaila", "Bafal", "Kalanki", "Khasibazar", "Sita Pump", "Balkhu", "Sanepa", "Dhobighat", "Ekantakuna", "Mahalaxmisthan", "Satdobato", "Gwarko", "Koteshwor", "Tribhuvan Airport", "Tilganga", "Chabahil", "Narayan Gopal Chowk", "Basundhara", "Samakhusi", "Gongabu Buspark"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Large Bus (Ring Road Circle)",
     "yatayat": "Mahanagar Yatayat, Sajha Yatayat",
     "yatayat_support": "01-4390904"
@@ -228,7 +236,11 @@
     "id": 26,
     "from": "Ratnapark",
     "to": "Tokha",
+<<<<<<< HEAD
+    "stops": ["Ratnapark", "Jamal", "Lainchaur", "Sorhakhutte", "Gongabu Buspark", "Samakhusi", "Grande Hospital", "Tokha"],
+=======
     "stops": ["Ratnapark", "Jamal", "Lainchaur", "Sorakhutte", "Gongabu", "Samakhusi Chowk", "Grande Hospital", "Tokha"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Micro, Bus",
     "yatayat": "Tokha Yatayat",
     "yatayat_support": "N/A"
@@ -237,7 +249,11 @@
     "id": 27,
     "from": "Kalanki",
     "to": "Chabahil",
+<<<<<<< HEAD
+    "stops": ["Kalanki", "Bafal", "Sitapaila", "Swayambhu", "Thulobharyang", "Banasthali", "Balaju", "Machhapokhari", "Gongabu Buspark", "Samakhusi", "Basundhara", "Narayan Gopal Chowk", "Dhumbarahi", "Chabahil"],
+=======
     "stops": ["Kalanki", "Bafal", "Sitapaila", "Swoyambhu", "Thulobharyang", "Banasthali", "Balaju", "Machhapokhari", "Gongabu Buspark", "Samakhusi", "Basundhara", "Narayan Gopal Chowk", "Dhumbarahi", "Chabahil"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Bus, Micro",
     "yatayat": "Mahanagar Yatayat",
     "yatayat_support": "01-4390904"
@@ -255,7 +271,11 @@
     "id": 29,
     "from": "Ratnapark",
     "to": "Dharmasthali",
+<<<<<<< HEAD
+    "stops": ["Ratnapark", "Lainchaur", "Sorhakhutte", "Balaju", "Bypass", "Machhapokhari", "Padamsal", "Dharmasthali"],
+=======
     "stops": ["Ratnapark", "Lainchaur", "Sorakhutte", "Balaju", "Bypass", "Machhapokhari", "Padamsal", "Dharmasthali"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Bus, Micro",
     "yatayat": "Samyukta Yatayat",
     "yatayat_support": "N/A"
@@ -273,7 +293,11 @@
     "id": 31,
     "from": "Sundhara",
     "to": "Balaju",
+<<<<<<< HEAD
+    "stops": ["Sundhara", "Ratnapark", "Jamal", "Lainchaur", "Sorhakhutte", "Naya Bazar", "Balaju", "Machhapokhari"],
+=======
     "stops": ["Sundhara", "Ratnapark", "Jamal", "Lainchaur", "Sorakhutte", "Naya Bazar", "Balaju Bhatbheteni", "Machhapokhari"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Micro",
     "yatayat": "Gongabu-Ratnapark Micro-Bus Association",
     "yatayat_support": "N/A"
@@ -723,7 +747,11 @@
     "id": 81,
     "from": "Ratnapark",
     "to": "Mudkhu",
+<<<<<<< HEAD
+    "stops": ["Ratnapark", "Lainchaur", "Sorhakhutte", "Balaju", "Bypass", "Mudkhu"],
+=======
     "stops": ["Ratnapark", "Lainchaur", "Sorakhutte", "Balaju", "Bypass", "Mudkhu"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Micro",
     "yatayat": "Samyukta Yatayat Micro Sewa",
     "yatayat_support": "N/A"
@@ -822,7 +850,11 @@
     "id": 92,
     "from": "New Buspark",
     "to": "Tokha",
+<<<<<<< HEAD
+    "stops": ["Gongabu Buspark", "Samakhusi", "Jharana", "Tokha Bazar"],
+=======
     "stops": ["Gongabu Buspark", "Samakhusi Chowk", "Jharana", "Tokha Bazar"],
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
     "type": "Micro",
     "yatayat": "Tokha Yatayat Micro Sewa",
     "yatayat_support": "N/A"
@@ -898,5 +930,44 @@
     "type": "Micro, Bus",
     "yatayat": "Mahanagar Yatayat",
     "yatayat_support": "01-4390904"
+<<<<<<< HEAD
+  },
+  {
+    "id": 101,
+    "from": "Thankot",
+    "to": "Koteshwor",
+    "stops": ["Thankot", "Mahadevsthan", "Gurjudhara", "Satungal", "Naikap", "Dhungeadda", "Kalanki", "Maitighar", "Naya Baneshwor", "Tinkune", "Koteshwor"],
+    "type": "Bus, Micro",
+    "yatayat": "Chandragiri Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 102,
+    "from": "Thankot",
+    "to": "Satdobato",
+    "stops": ["Thankot", "Kalanki", "Balkhu", "Ekantakuna", "Jawalakhel", "Lagankhel", "Satdobato"],
+    "type": "Bus, Micro",
+    "yatayat": "Chandragiri Yatayat, Lalitpur Yatayat",
+    "yatayat_support": "N/A"
+  },
+  {
+    "id": 103,
+    "from": "Ring Road Loop",
+    "to": "Ring Road Loop",
+    "stops": ["Kalanki", "Bafal", "Swayambhu", "Banasthali", "Balaju", "Gongabu Buspark", "Basundhara", "Narayan Gopal Chowk", "Dhumbarahi", "Chabahil", "Gaushala", "Koteshwor", "Balkumari", "Gwarko", "Satdobato", "Ekantakuna"],
+    "type": "Large Bus",
+    "yatayat": "Mahanagar Yatayat, Sajha Yatayat",
+    "yatayat_support": "01-4390904"
+  },
+  {
+    "id": 104,
+    "from": "Kalanki",
+    "to": "Nepal Engineering College (NEC)",
+    "stops": ["Kalanki", "Maitighar", "Koteshwor", "Jadibuti", "Lokanthali", "Kaushaltar", "Gaththaghar", "Thimi", "Sallaghari", "Nepal Engineering College"],
+    "type": "Bus",
+    "yatayat": "Bhaktapur Minibus Sewa Samiti",
+    "yatayat_support": "N/A"
+=======
+>>>>>>> 3cdd60fbcda67d7b7a508d0da12e94a9a1aeb93e
   }
 ]
