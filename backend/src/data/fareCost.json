@@ -1,0 +1,46 @@
+{
+  "currency": "NPR",
+  "rounding_system": "Nearest Multiples of 5 (Street Reality due to Rs. 5 Minimum Note/Coin)",
+  "fare_matrix": [
+    {
+      "tier": 1,
+      "distance_km": "0 - 5 KM",
+      "standard_legal_fare": 24.00,
+      "standard_cash_collected": 25,
+      "discount_legal_fare": 13.20,
+      "discount_cash_collected": 15
+    },
+    {
+      "tier": 2,
+      "distance_km": "5 - 10 KM",
+      "standard_legal_fare": 33.00,
+      "standard_cash_collected": 35,
+      "discount_legal_fare": 18.15,
+      "discount_cash_collected": 20
+    },
+    {
+      "tier": 3,
+      "distance_km": "10 - 15 KM",
+      "standard_legal_fare": 39.00,
+      "standard_cash_collected": 40,
+      "discount_legal_fare": 21.45,
+      "discount_cash_collected": 20
+    },
+    {
+      "tier": 4,
+      "distance_km": "15 - 20 KM",
+      "standard_legal_fare": 44.00,
+      "standard_cash_collected": 45,
+      "discount_legal_fare": 24.20,
+      "discount_cash_collected": 25
+    },
+    {
+      "tier": 5,
+      "distance_km": "20+ KM",
+      "standard_legal_fare": 50.00,
+      "standard_cash_collected": 50,
+      "discount_legal_fare": 27.50,
+      "discount_cash_collected": 30
+    }
+  ]
+}
