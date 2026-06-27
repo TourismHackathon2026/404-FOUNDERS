@@ -1,0 +1,762 @@
+[
+  {
+    "stop_name": "Ratnapark",
+    "tourist_places": ["Rani Pokhari", "Dharahara Tower", "Mahakal Temple", "Tundikhel Ground", "Kathmandu Durbar Square (Walking Distance)"]
+  },
+  {
+    "stop_name": "Tripureshwor",
+    "tourist_places": ["Tripureshwar Mahadev Temple", "National Sport Council Stadium (Dasharath Rangasala)", "Nepal Football Association HQ"]
+  },
+  {
+    "stop_name": "Teku",
+    "tourist_places": ["Teku Ghat Heritage Shrines", "Kankeshwari Temple", "Pachali Bhairav Temple"]
+  },
+  {
+    "stop_name": "Kalimati",
+    "tourist_places": ["Kalimati Heritage Fruit & Vegetable Market Area", "Shani Dham Temple"]
+  },
+  {
+    "stop_name": "Balkhu",
+    "tourist_places": ["Tribhuvan University Historical Grounds", "Vishwa Vinayak Temple"]
+  },
+  {
+    "stop_name": "Putalisadak",
+    "tourist_places": ["Singha Durbar (Main Government Seat Main Gate)", "Padmodaya Heritage Grounds"]
+  },
+  {
+    "stop_name": "Maitidevi",
+    "tourist_places": ["Maitidevi Temple (Highly Revered Shaktipitha)"]
+  },
+  {
+    "stop_name": "Purano Baneshwor",
+    "tourist_places": ["Bhimsengola Religious Shrines", "Ratna Rajya Lakshmi Campus Area"]
+  },
+  {
+    "stop_name": "Tinkune",
+    "tourist_places": ["Tinkune Open Park Project Area", "Royal Nepal Golf Club (Nearby)"]
+  },
+  {
+    "stop_name": "Koteshwor",
+    "tourist_places": ["Mahadevsthan Temple Koteshwor", "Jadibuti Heritage Hub"]
+  },
+  {
+    "stop_name": "Jadibuti",
+    "tourist_places": ["Manohara River Park Banks"]
+  },
+  {
+    "stop_name": "Lagankhel",
+    "tourist_places": ["Batuk Bhairav Temple", "Lagankhel Stupa (Ashoka Stupa)", "Patan Hospital Historical Compound"]
+  },
+  {
+    "stop_name": "Jawalakhel",
+    "tourist_places": ["Central Zoo of Nepal", "Jawalakhel Handicraft Center (Tibetan Refugee Camp Area)", "Jawalakhel Ground"]
+  },
+  {
+    "stop_name": "Kumaripati",
+    "tourist_places": ["Patan Shopping High Street Lanes", "Historical Newari Rest Houses"]
+  },
+  {
+    "stop_name": "Satdobato",
+    "tourist_places": ["ANFA Complex (All Nepal Football HQ)", "International Sports Complex Swimming Pool"]
+  },
+  {
+    "stop_name": "Gongabu Buspark",
+    "tourist_places": ["Lhotse Mall & Transit Hub Arcade"]
+  },
+  {
+    "stop_name": "Samakhusi",
+    "tourist_places": ["Samakhusi Town Town Center", "Radha Krishna Temple"]
+  },
+  {
+    "stop_name": "Lainchaur",
+    "tourist_places": ["Narayanhiti Palace Museum (West Gate)", "Scouts Ground Nepal HQ", "British Council Cultural Center"]
+  },
+  {
+    "stop_name": "Thamel",
+    "tourist_places": ["Garden of Dreams", "Thamel Nightlife Tourism District", "Tridevi Temple Complex", "Chhaya Center Arcade"]
+  },
+  {
+    "stop_name": "Tribhuvan Airport",
+    "tourist_places": ["Aviation Museum (Sinamangal Side)", "Airport Passenger Viewpoint Overlook"]
+  },
+  {
+    "stop_name": "Minbhawan",
+    "tourist_places": ["Civil Service Hospital Grounds", "VS Niketan Historical Landmark Corner"]
+  },
+  {
+    "stop_name": "Naya Baneshwor",
+    "tourist_places": ["Federal Parliament House of Nepal (International Convention Center - ICC)", "Baneshwor Shopping Streets"]
+  },
+  {
+    "stop_name": "Babarmahal",
+    "tourist_places": ["Babar Mahal Vilas (Heritage Boutique Palace Complex)", "Nepal Art Council Gallery"]
+  },
+  {
+    "stop_name": "Maitighar",
+    "tourist_places": ["Maitighar Mandala (National Monument Park)"]
+  },
+  {
+    "stop_name": "Bhadrakali",
+    "tourist_places": ["Bhadrakali Temple (Lajimpat Shaktipitha)", "Army HQ Plaza", "Martyr's Gate (Sahid Gate)"]
+  },
+  {
+    "stop_name": "Bagbazar",
+    "tourist_places": ["Historical Bhaktapur Bus Station Corner", "Padmini Traditional Market lanes"]
+  },
+  {
+    "stop_name": "Gwarko",
+    "tourist_places": ["Balkumari Temple (Ancient Lalitpur Heritage Shriners)"]
+  },
+  {
+    "stop_name": "Balkumari",
+    "tourist_places": ["Balkumari Temple complex"]
+  },
+  {
+    "stop_name": "Lokanthali",
+    "tourist_places": ["Manohara River Confluence Sightseeing Spot"]
+  },
+  {
+    "stop_name": "Kaushaltar",
+    "tourist_places": ["Kaushaltar Viewpoint Marketplace"]
+  },
+  {
+    "stop_name": "Gaththaghar",
+    "tourist_places": ["Citizen Park Greens", "Siddhi Binayak Temple (Nearby)"]
+  },
+  {
+    "stop_name": "Thimi",
+    "tourist_places": ["Balkumari Temple Thimi", "Traditional Pottery Square of Thimi", "Siddhi Kali Temple"]
+  },
+  {
+    "stop_name": "Sallaghari",
+    "tourist_places": ["Sallaghari Pine Forest Belt Landscape"]
+  },
+  {
+    "stop_name": "Suryabinayak",
+    "tourist_places": ["Suryabinayak Ganesh Temple (Famous Guardian Deity)", "Pilot Baba Ashram Hill (Transfer Route)", "National Wildlife Stuffed Museum Area"]
+  },
+  {
+    "stop_name": "Harisiddhi",
+    "tourist_places": ["Harisiddhi Bhawani Trishakti Temple (Ancient Masked Dance Arena)"]
+  },
+  {
+    "stop_name": "Thaiba",
+    "tourist_places": ["Thaiba Newari Cultural Settlement Lanes", "Santaneshwor Mahadev Temple (Hilltop Nearby)"]
+  },
+  {
+    "stop_name": "Badegaon",
+    "tourist_places": ["Krishna Mandir Badegaon", "Lalit Kalyan Kendra Craft Grounds"]
+  },
+  {
+    "stop_name": "Godawari",
+    "tourist_places": ["National Botanical Gardens", "Godawari Kunda (Sacred Spring Starlight Pools)", "Naudhara (Nine Spouts Park)", "Phulchowki Hiking Trailhead"]
+  },
+  {
+    "stop_name": "Kalanki",
+    "tourist_places": ["Kalanki Mai Temple", "Makhamali Community Park Hub"]
+  },
+  {
+    "stop_name": "TU Gate",
+    "tourist_places": ["Tribhuvan University Central Library Campus Landscape", "Kirtipur Horticultural Botanical Nursery View"]
+  },
+  {
+    "stop_name": "Kirtipur",
+    "tourist_places": ["Bagh Bhairab Temple", "Uma Maheshwar Temple (Hilltop Viewpoint)", "Chilancho Stupa", "Historical Newar Village Square"]
+  },
+  {
+    "stop_name": "Pulchowk",
+    "tourist_places": ["Patan Durbar Square (Walking Distance)", "UN House Grounds", "Sajha Yatayat Cooperative Compound Landmark"]
+  },
+  {
+    "stop_name": "Kupondole",
+    "tourist_places": ["Kupondole Art Murals & Street Galleries", "Kandevsthan Temple Complex"]
+  },
+  {
+    "stop_name": "Thapathali",
+    "tourist_places": ["Thapathali Heritage Ghats", "Kala Mochan Temple Complex", "Central Bank (NRB Museum Grounds)"]
+  },
+  {
+    "stop_name": "Sundhara",
+    "tourist_places": ["Dharahara Tower Park Complex", "Historical Golden Water Spouts Spout", "Civil Mall & Kathmandu Mall Arcades"]
+  },
+  {
+    "stop_name": "Jamal",
+    "tourist_places": ["Rastriyanach Ghar (National Dance Theatre)", "Rani Pokhari Pond East Bank"]
+  },
+  {
+    "stop_name": "Kamaladi",
+    "tourist_places": ["Kamaladi Ganesha Temple (White Ganesha)"]
+  },
+  {
+    "stop_name": "Kalopul",
+    "tourist_places": ["Dhobi Khola Riverfront Promenade Walks"]
+  },
+  {
+    "stop_name": "Chabahil",
+    "tourist_places": ["Chabahil Stupa (Charumati Stupa - 3rd Century BC)", "Chandra Binayak Ganesh Temple (Revered Elephant Lord)"]
+  },
+  {
+    "stop_name": "Bouddha",
+    "tourist_places": ["Boudhanath Stupa (UNESCO World Heritage Site)", "Taragaon Museum", "Sechen Monastery", "Kopan Monastery Links"]
+  },
+  {
+    "stop_name": "Jorpati",
+    "tourist_places": ["Gokarneshwor Mahadev Temple Route", "Jorpati Narayantar Green Enclaves"]
+  },
+  {
+    "stop_name": "Machhapokhari",
+    "tourist_places": ["Historical Fish Pond Monument Crossing"]
+  },
+  {
+    "stop_name": "Balaju",
+    "tourist_places": ["Balaju Water Gardens (22 Stone Water Spouts)", "Balaju Industrial Heritage District"]
+  },
+  {
+    "stop_name": "Sorhakhutte",
+    "tourist_places": ["Sorhakhutte Historical 16-Pillar Rest House Junction"]
+  },
+  {
+    "stop_name": "Naya Bazar",
+    "tourist_places": ["Town Center Walkways Corridor"]
+  },
+  {
+    "stop_name": "Sanepa",
+    "tourist_places": ["Sanepa International Fusion Food Streets & Craft Boutiques"]
+  },
+  {
+    "stop_name": "Ekantakuna",
+    "tourist_places": ["Central Zoo Forest Edge Wall Trail", "Siddhartha Cottage Gardens"]
+  },
+  {
+    "stop_name": "Dhungeadda",
+    "tourist_places": ["Chandragiri Gateway Highway Arcades"]
+  },
+  {
+    "stop_name": "Naikap",
+    "tourist_places": ["Naikap Hilltop Hiking Trails", "Historical Battlefield Points"]
+  },
+  {
+    "stop_name": "Machhegaun",
+    "tourist_places": ["Machhenarayan Vishnu Temple (Site of Mass Pilgrimage Festivals)"]
+  },
+  {
+    "stop_name": "Nakhkhu",
+    "tourist_places": ["Nakhkhu River Gorge Overlook Suspension Bridges"]
+  },
+  {
+    "stop_name": "Sinamangal",
+    "tourist_places": ["Aviation Museum Nepal (Inside a real Airbus aircraft)"]
+  },
+  {
+    "stop_name": "Gaushala",
+    "tourist_places": ["Pashupatinath Temple (UNESCO World Heritage Site - 3 min walk)", "Deer Park Forest Area"]
+  },
+  {
+    "stop_name": "Tilganga",
+    "tourist_places": ["Tilganga Eye Heritage Medical Center Overlook", "Bagmati River Holy Ritual Confluence View"]
+  },
+  {
+    "stop_name": "Old Baneshwor",
+    "tourist_places": ["Mahendra Ratna Campus Historical Grounds"]
+  },
+  {
+    "stop_name": "Mid-Baneshwor",
+    "tourist_places": ["Global Fusion Culinary Mile Lanes"]
+  },
+  {
+    "stop_name": "Imadol",
+    "tourist_places": ["Krishna Mandir Imadol", "Shiva Puri Village Trails Nearby"]
+  },
+  {
+    "stop_name": "Kuleshwor",
+    "tourist_places": ["Kuleshwor Mahadev Temple Hillside Forest"]
+  },
+  {
+    "stop_name": "Swayambhu",
+    "tourist_places": ["Swayambhunath Stupa (Monkey Temple - UNESCO World Heritage Site)", "Amideva Buddha Park (Three Giant Gold Statues)"]
+  },
+  {
+    "stop_name": "Bafal",
+    "tourist_places": ["Ring Road Modern Urban Walk Square"]
+  },
+  {
+    "stop_name": "Sitapaila",
+    "tourist_places": ["Padma Sambhava Monastery Links", "Ichangu Narayan Temple (Scenic Detour Link)"]
+  },
+  {
+    "stop_name": "Ramkot",
+    "tourist_places": ["Ramkot Rural Village Farm Viewpoints", "White Monastery (Seto Gumba Route Transfer)"]
+  },
+  {
+    "stop_name": "Halchowk",
+    "tourist_places": ["APF Stadium", "Halchowk Akash Bhairav Shrine"]
+  },
+  {
+    "stop_name": "Thankot Checkpost",
+    "tourist_places": ["Chandragiri Cable Car Bottom Station (Primary Entryway Point to Hills)"]
+  },
+  {
+    "stop_name": "Mahadevsthan",
+    "tourist_places": ["Thankot Mahadevsthan Cave Shrines"]
+  },
+  {
+    "stop_name": "Satungal",
+    "tourist_places": ["Vishnu Devi Temple Satungal"]
+  },
+  {
+    "stop_name": "Gurjudhara",
+    "tourist_places": ["Gurjudhara Local Market Squares"]
+  },
+  {
+    "stop_name": "Banasthali",
+    "tourist_places": ["Banasthali Stupa Gardens"]
+  },
+  {
+    "stop_name": "Dhungedhara",
+    "tourist_places": ["Dhungedhara Ancient Stone Spout Rest Area"]
+  },
+  {
+    "stop_name": "Sanobharyang",
+    "tourist_places": ["Radha Krishna Mandir Square"]
+  },
+  {
+    "stop_name": "Thulobharyang",
+    "tourist_places": ["Swayambhu West Gate Entrance Access Park"]
+  },
+  {
+    "stop_name": "Khasibazar",
+    "tourist_places": ["Traditional Livestock Market Square Hub"]
+  },
+  {
+    "stop_name": "Sita Pump",
+    "tourist_places": ["Ring Road Commercial Hub Lanes"]
+  },
+  {
+    "stop_name": "Dhobighat",
+    "tourist_places": ["Lalitpur Creative Arts Alleyways"]
+  },
+  {
+    "stop_name": "Mahalaxmisthan",
+    "tourist_places": ["Mahalaxmi Temple (Goddess of Wealth Primary Shrine Complex)"]
+  },
+  {
+    "stop_name": "Dhumbarahi",
+    "tourist_places": ["Dhumbarahi Varaha Temple (Rare Ancient Vaishnavite Stone Carving Site)"]
+  },
+  {
+    "stop_name": "Narayan Gopal Chowk",
+    "tourist_places": ["Maharajgunj Palace Complex Walls Nearby"]
+  },
+  {
+    "stop_name": "Basundhara",
+    "tourist_places": ["Basundhara Community Eco-Park Zone"]
+  },
+  {
+    "stop_name": "Lazimpat",
+    "tourist_places": ["Narayanhiti Palace North Wall Gate", "Shangri-La Heritage Garden District"]
+  },
+  {
+    "stop_name": "Bansbari",
+    "tourist_places": ["Shah Royal Family Historical Footwear Area Complex"]
+  },
+  {
+    "stop_name": "Golfutar",
+    "tourist_places": ["Golfutar Basket Ball Arena & Recreation Park"]
+  },
+  {
+    "stop_name": "Bhangrahiti",
+    "tourist_places": ["Budhanilkantha Spring Inflow Spouts"]
+  },
+  {
+    "stop_name": "Narayanthan",
+    "tourist_places": ["Budhanilkantha Temple (Giant Reclining Vishnu Statue floating in water)"]
+  },
+  {
+    "stop_name": "Budhanilkantha School",
+    "tourist_places": ["Shivapuri Nagarjun National Park Southern Entry Gate", "Tarebhir Hiking Trailhead Entrance"]
+  },
+  {
+    "stop_name": "Kamalpokhari",
+    "tourist_places": ["Kamal Pokhari Lotus Pond Park (Newly Revitalized City Water Oasis)"]
+  },
+  {
+    "stop_name": "Charkhal",
+    "tourist_places": ["Historical Judicial Rana Administrative Block Structures"]
+  },
+  {
+    "stop_name": "Sukhedhara",
+    "tourist_places": ["Sukhedhara Community Center Commons"]
+  },
+  {
+    "stop_name": "Kapan Gumba",
+    "tourist_places": ["Kapan Monastery (World-Renowned Tibetan Buddhist Gelug Meditation Center)"]
+  },
+  {
+    "stop_name": "Naya Bazaar",
+    "tourist_places": ["Kirtipur Foothill Local Craft Markets"]
+  },
+  {
+    "home_stop": "Kirtipur Hillside",
+    "tourist_places": ["Uma Maheshwar High Panoramic Overlook Station"]
+  },
+  {
+    "stop_name": "Grande Hospital",
+    "tourist_places": ["Tokha Green Valley View Ridges"]
+  },
+  {
+    "stop_name": "Tokha",
+    "tourist_places": ["Historical Tokha Newari Town", "Chandeshwari Temple Complex", "Traditional Chaku (Molasses) Candy Making Cottage Blocks"]
+  },
+  {
+    "stop_name": "Sankhu",
+    "tourist_places": ["Bajrayogini Temple (Ancient Tantric Hill Temple Site)", "Salinadi River Holy Bank Enclosures (Swasthani Festival Ground)"]
+  },
+  {
+    "stop_name": "Makalbari",
+    "tourist_places": ["Bagmati Eco-Park Recreational Linear Paths"]
+  },
+  {
+    "stop_name": "Mulpani",
+    "tourist_places": ["Mulpani International Cricket Stadium Complex Ground"]
+  },
+  {
+    "stop_name": "Thali",
+    "stop_places": ["Thali Village Farmland Agricultural Walking Tracks"]
+  },
+  {
+    "stop_name": "Bypass",
+    "tourist_places": ["Balaju Northern Hill Hiking Base Station"]
+  },
+  {
+    "stop_name": "Padamsal",
+    "tourist_places": ["Padamsal Local Meditation Hermitages"]
+  },
+  {
+    "stop_name": "Dharmasthali",
+    "tourist_places": ["Dharmasthali Mahadev Temple Landmark Square"]
+  },
+  {
+    "stop_name": "Mudkhu",
+    "tourist_places": ["Mudkhu Bhangyang View Tower (Highly Popular Weekend Mountain Bike Destination)"]
+  },
+  {
+    "stop_name": "Trishuli Highway",
+    "tourist_places": ["Nagarjun Forest Reserve Boundary Fencing Walls"]
+  },
+  {
+    "stop_name": "Kakani",
+    "tourist_places": ["Kakani Memorial Hill Park", "Strawberry Farm Estates of Nuwakot Border", "Himalayan Panorama Rest House Points"]
+  },
+  {
+    "stop_name": "Old Buspark",
+    "tourist_places": ["Khula Manch National Square Arena", "View Tower Tower Marketplace Plaza"]
+  },
+  {
+    "stop_name": "Dillibazar",
+    "tourist_places": ["Historical Dillibazar Charikhal Fountain Corner"]
+  },
+  {
+    "stop_name": "Gokarna",
+    "tourist_places": ["Gokarna Forest Resort & Safari Golf Course", "Gokarneshwor Mahadev Pagoda Shrine"]
+  },
+  {
+    "stop_name": "Nayapati",
+    "tourist_places": ["Sundarijal Watershed Mountain Streams Trailhead"]
+  },
+  {
+    "stop_name": "Sundarijal",
+    "tourist_places": ["Sundarijal Waterfalls & Hydropower Dam Gates", "Shivapuri National Park Entry Trekking Gate (Helambu Route Starting point)"]
+  },
+  {
+    "stop_name": "Maharajgunj",
+    "tourist_places": ["Nirvana Palace Gardens (Nearby Embassy Enclave Architectural Mile)"]
+  },
+  {
+    "stop_name": "Syuchatar",
+    "tourist_places": ["Syuchatar Solar Power Grid Installation Overlook Base"]
+  },
+  {
+    "stop_name": "Syuchatar Hill",
+    "tourist_places": ["West Valley Scenic Horizon Sundown Ridge Viewpoints"]
+  },
+  {
+    "stop_name": "Krishna Mandir",
+    "tourist_places": ["Lalitpur Suburban Radha Krishna Shrine Precincts"]
+  },
+  {
+    "stop_name": "Sanagaon",
+    "tourist_places": ["Traditional Newari Weaving Workrooms Area"]
+  },
+  {
+    "stop_name": "Lubhu",
+    "tourist_places": ["Maha Mahalaxmi Temple Lubhu", "Lubhu Agricultural Settlement Valleys"]
+  },
+  {
+    "stop_name": "Bhaisepati",
+    "tourist_places": ["Bhaisepati Scenic Plateau View Parks Area"]
+  },
+  {
+    "stop_name": "Bungamati",
+    "tourist_places": ["Rato Machindranath Temple (Home Base of Rain God Deity)", "Bungamati Master Woodcarving Artisan Courtyards"]
+  },
+  {
+    "stop_name": "Civil Homes",
+    "tourist_places": ["Dhapakhel Gated Architecture Landmark Walkway Zone"]
+  },
+  {
+    "stop_name": "Gems School",
+    "tourist_places": ["Suburban Lalitpur Open Greens fields"]
+  },
+  {
+    "stop_name": "Dhapakhel",
+    "tourist_places": ["Nagdaha Lake (Sacred Serpent Lake Lagoon Wildlife Refuge)"]
+  },
+  {
+    "stop_name": "Godamchaur",
+    "tourist_places": ["Godamchaur Brick Kiln Rural Architectural Heritage Landscapes"]
+  },
+  {
+    "stop_name": "Lele",
+    "tourist_places": ["Lele Saraswati Kunda Temple (The Spring of Wisdom Pool Site)", "Lele Valley Organic Plantations Tile Farms"]
+  },
+  {
+    "stop_name": "Shital Height",
+    "tourist_places": ["Imadol Panoramic Valley Ridge Overlooks"]
+  },
+  {
+    "stop_name": "Changathali",
+    "tourist_places": ["Changathali Mahadev Sthan Rural Shrine Walkways"]
+  },
+  {
+    "stop_name": "Sainbu",
+    "tourist_places": ["Sainbu Hilltop Pine Forest Retreat Park Corner"]
+  },
+  {
+    "stop_name": "Shuvatara School",
+    "tourist_places": ["Lamatar Watershed Outflow Streams Foothills"]
+  },
+  {
+    "stop_name": "Lamatar",
+    "tourist_places": ["Llakuri Bhanjyang Trekking Base Hub (Popular Paragliding Camp Spots Nearby)"]
+  },
+  {
+    "stop_name": "Sunakothi",
+    "tourist_places": ["Balkumari Temple Sunakothi (Enclosed by old Newar Terraced Houses)"]
+  },
+  {
+    "stop_name": "Thecho",
+    "tourist_places": ["Historical Bramhayani Temple Temple Grounds", "Thecho Traditional Mustard Oil Press Mills"]
+  },
+  {
+    "stop_name": "Chapagaon",
+    "tourist_places": ["Bajrabarahi Temple (Famed Sacred Forest Sanctuary Protected by local Deity taboos)"]
+  },
+  {
+    "stop_name": "Khokana crossroads",
+    "tourist_places": ["Khokana Village Entryway (UNESCO Tentative Heritage Mustard Oil Settlement Site)"]
+  },
+  {
+    "stop_name": "Sisneri",
+    "tourist_places": ["Sisneri South Valley Farm Trails Access Base"]
+  },
+  {
+    "stop_name": "Patan Dhoka",
+    "tourist_places": ["Historical Patan Gate City Entrance Landmark", "Madan Puraskar Library Archeology Hub"]
+  },
+  {
+    "stop_name": "Patan Loop",
+    "tourist_places": ["Ashoka Stupa Complex Trails Corners"]
+  },
+  {
+    "stop_name": "Chyasal",
+    "tourist_places": ["Chyasal Heritage Stone Step Square Ground", "Chyasal Stadium Complex"]
+  },
+  {
+    "stop_name": "Mangal Bazar",
+    "tourist_places": ["Patan Durbar Square (UNESCO World Heritage Site)", "Krishna Mandir Temple", "Patan Museum Gallery Complex"]
+  },
+  {
+    "stop_name": "Jhamsikhel",
+    "tourist_places": ["Jhamsikhel Modern Gastronomy Hub Mile (Lalitpur's Expat Culinary Quarter)"]
+  },
+  {
+    "stop_name": "Bhatkyapati",
+    "tourist_places": ["Bagmati Riverfront Eco Enclave Walking Path access"]
+  },
+  {
+    "stop_name": "Gopi Krishna",
+    "tourist_places": ["Gopi Krishna Iconic Cinema Heritage Crossing Area"]
+  },
+  {
+    "stop_name": "Kamalavinayak",
+    "tourist_places": ["Kamal Pokhari Bhaktapur Lotus Pond Gate", "Kamalavinayak Ganesh Shrine Base"]
+  },
+  {
+    "stop_name": "Nagarkot",
+    "tourist_places": ["Nagarkot Panoramic Himalayan Mountain View Tower Park", "Nagarkot Eco Trail Loop Woods"]
+  },
+  {
+    "stop_name": "Duwakot",
+    "tourist_places": ["Duwakot Hilltop Panoramic Country Viewpoints"]
+  },
+  {
+    "stop_name": "Mwahan",
+    "tourist_places": ["Changu Valley Ancient Pine Trailwoods"]
+  },
+  {
+    "stop_name": "Changunarayan",
+    "tourist_places": ["Changu Narayan Temple (Oldest Living Inscribed Hindu Temple In Nepal - UNESCO World Heritage Site)", "Changu Museum Hub"]
+  },
+  {
+    "stop_name": "Bhaktapur",
+    "tourist_places": ["Bhaktapur Durbar Square (UNESCO World Heritage Site)", "55-Window Palace Compound", "Nyatapola 5-Tier Temple Pagoda", "Pottery Square Bhaktapur"]
+  },
+  {
+    "stop_name": "Sanga",
+    "tourist_places": ["Kailashnath Mahadev Statue (World's Tallest Lord Shiva Statue Complex Crossing Base)"]
+  },
+  {
+    "stop_name": "Dadhikot",
+    "tourist_places": ["Dadhikot Village Settlement Farmlands Viewpoint Paths"]
+  },
+  {
+    "stop_name": "Thimi Radhe Radhe",
+    "tourist_places": ["Radhe Radhe Temple Complex Monument Base", "Bhaktapur Mega Retail Arcades"]
+  },
+  {
+    "stop_name": "Gamcha",
+    "tourist_places": ["Gamcha Handloom Textile Craft Workshops Hub"]
+  },
+  {
+    "stop_name": "Chyamasingh",
+    "tourist_places": ["Bhaktapur Eastern Medieval City Gates Crossing"]
+  },
+  {
+    "stop_name": "Sudal",
+    "tourist_places": ["Sudal Countryside Tea & Agri-Tourism Organic Orchards"]
+  },
+  {
+    "stop_name": "Kapan",
+    "tourist_places": ["Kapan Eco Ridge Village Hill View Paths"]
+  },
+  {
+    "stop_name": "Jagati",
+    "tourist_places": ["Historical Bhaktapur South Custom Border Outpost Gate Areas"]
+  },
+  {
+    "stop_name": "Sipadol",
+    "tourist_places": ["Doleshwor Mahadev Temple (Revered Head Portion of Kedarnath Shrine Complex)"]
+  },
+  {
+    "stop_name": "Tathali",
+    "tourist_places": ["Tathali Wooded Hiking Valleys & Countryside Resorts Strip"]
+  },
+  {
+    "stop_name": "Nalininchowk",
+    "tourist_places": ["Bhaktapur Pine Ridge Picnic Park Glades"]
+  },
+  {
+    "stop_name": "Gundu",
+    "tourist_places": ["Gundu Velvet Flower (Makhamali) Commercial Farm Belts"]
+  },
+  {
+    "stop_name": "Radhe Radhe",
+    "tourist_places": ["Radhe Radhe Cultural Center Shriners Square"]
+  },
+  {
+    "stop_name": "Jhaukhel",
+    "tourist_places": ["Jhaukhel Terraced Brick-Making Earth Kilns Heritage Vistas"]
+  },
+  {
+    "stop_name": "Chaling",
+    "tourist_places": ["Chaling Village Highland Hiking Tracks Corridor"]
+  },
+  {
+    "stop_name": "Phedi",
+    "tourist_places": ["Changu Narayan Ancient Stone Stairway Trekking Origin Point"]
+  },
+  {
+    "stop_name": "Telkot",
+    "tourist_places": ["Telkot Pine Forest Trailhead (Popular Nagarkot-to-Changu Hiking Crossing Point)"]
+  },
+  {
+    "stop_name": "Bageshwari",
+    "tourist_places": ["Bageshwari Temple Complex, Bhaktapur Ridge Hill Viewpoints"]
+  },
+  {
+    "stop_name": "Phutung",
+    "tourist_places": ["Phutung Local Micro-Orchard Citrus Farming Blocks"]
+  },
+  {
+    "stop_name": "Southern Loop",
+    "tourist_places": ["Gothatar Bagmati Valley Riverbank Parks Corridor"]
+  },
+  {
+    "stop_name": "Jitpurphedi",
+    "tourist_places": ["Jitpur Village Countryside Green Retreat Stations"]
+  },
+  {
+    "stop_name": "Chobhar Gate",
+    "tourist_places": ["Chobhar Gorge (Legendary Site Cut by Manjushri's Sword)", "Jal Vinayak Ganesh Temple"]
+  },
+  {
+    "stop_name": "Chobhar",
+    "tourist_places": ["Chobhar Caves System Trails", "Adinath Lokeshwar Hilltop Temple Base"]
+  },
+  {
+    "stop_name": "Taudaha",
+    "tourist_places": ["Taudaha Lake (Sacred Bird-Watching Wetland Sanctuary Reserved for Valley's Dragon Kings)"]
+  },
+  {
+    "stop_name": "Pharping",
+    "tourist_places": ["Asura Cave Monastery (Guru Rinpoche Sacred Meditation Site)", "Pharping Hydropower Station (Nepal's 1st Hydro Station Museum Compound)", "Dollu Buddhist Monasteries Stripe"]
+  },
+  {
+    "stop_name": "Dakshinkali Temple",
+    "tourist_places": ["Dakshinkali Temple (Major Hindu Shaktipitha Animal Sacrifice Forest Temple Site)"]
+  },
+  {
+    "stop_name": "Matatirth",
+    "tourist_places": ["Matatirtha Sacred Pond (Famous Mother's Remembrance Pilgrimage Spot)", "Chandragiri Hiking Trail Head West"]
+  },
+  {
+    "stop_name": "Jharana",
+    "tourist_places": ["Tokha Mountain Waterfall Cascade Enclaves"]
+  },
+  {
+    "stop_name": "Tokha Bazar",
+    "tourist_places": ["Tokha Heritage Newari Brick Housing Centers"]
+  },
+  {
+    "stop_name": "Kalikanagar",
+    "tourist_places": ["Northern Ring Road Foothill View Commons"]
+  },
+  {
+    "stop_name": "Gagalphedi",
+    "tourist_places": ["Gagalphedi Shivapuri Forest Fringe Watershed Stream Pools"]
+  },
+  {
+    "stop_name": "Kageshwari",
+    "tourist_places": ["Kageshwari Mahadev Temple (Famed Giant Metal Crow Statue Landmark Complex Site)"]
+  },
+  {
+    "stop_name": "Dahachowk",
+    "tourist_places": ["Kaji Kalu Pande Memorial Park Graveyard (Historical Unification Hero Hilltop Viewpoint Plaza)"]
+  },
+  {
+    "stop_name": "Narayantar",
+    "tourist_places": ["Gokarneshwor Riverside Local Craft Markets Zone"]
+  },
+  {
+    "stop_name": "Greenhill City",
+    "tourist_places": ["Mulpani Residential Landscape Scenic Overlook Corner"]
+  },
+  {
+    "stop_name": "Shanti Tole",
+    "tourist_places": ["Balaju Northern Valley Community Commons"]
+  },
+  {
+    "stop_name": "Kavresthali",
+    "tourist_places": ["Kavresthali Hill Streams, Shivapuri Eco Ridge Hiking Trails Base"]
+  }
+]
